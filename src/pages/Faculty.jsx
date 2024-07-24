@@ -45,7 +45,7 @@ const Faculty = () => {
       <div className="container mx-auto px-8">
         <h1 className="text-4xl font-bold mb-12 text-center pb-6 border-b-4">Our Faculty</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-y-8">
           {facultyMembers.map((member, index) => (
             <div key={index} className="p-6 bg-white   border border-gray-200 flex flex-col justify-between">
               <div className="mb-6">

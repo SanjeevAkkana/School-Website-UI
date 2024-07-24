@@ -7,7 +7,7 @@ const About = () => {
             <div className="mx-auto py-12 px-8">
                 <div className='absolute w-96 h-96 bg-blue-50 z-[-10] rounded-full left-0 blur-3xl'></div>
                 <section className="mb-12">
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 md:gap-8 gap-y-8">
                         <div className="flex flex-col justify-center">
                             <h2 className="text-3xl font-semibold mb-4">History</h2>
                             <p className="text-gray-700">
@@ -25,7 +25,7 @@ const About = () => {
                 </section>
 
                 <section className="mb-12">
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 md:gap-8 gap-y-8">
                         <div className="px-4 py-6 flex flex-col justify-centerp-4  bg-white  border border-gray-300 relative">
                             <h2 className="text-3xl font-semibold mb-4">Vision</h2>
                             <p className="text-gray-700">
@@ -44,7 +44,7 @@ const About = () => {
                 </section>
 
                 <section className="mb-12">
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 md:gap-8 gap-y-8">
                         <div className="px-4 py-6 flex flex-col justify-centerp-4  bg-white  border border-gray-300 relative">
                             <h2 className="text-3xl font-semibold mb-4">Principal's Message</h2>
                             <p className="text-gray-700">

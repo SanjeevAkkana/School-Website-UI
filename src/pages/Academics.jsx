@@ -10,7 +10,7 @@ const Academics = () => {
         {/* Curriculum Sections */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">Curriculum</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:md:gap-8 gap-y-8 gap-y-8">
             {/* Primary Curriculum */}
             <div className="p-6 bg-white  border border-gray-200 ">
               <h3 className="text-2xl font-bold mb-4">Primary (Grades 1-5)</h3>
@@ -66,7 +66,7 @@ const Academics = () => {
 
         {/* Teaching Methodologies Section */}
         <section className="mb-12">
-          <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex flex-col md:flex-row md:md:gap-8 gap-y-8 gap-y-8">
             <div className="p-6 bg-white  border border-gray-200  flex-1 relative">
               <h2 className="text-3xl font-semibold mb-4">Teaching Methodologies</h2>
               <p className="text-gray-700">
@@ -78,7 +78,7 @@ const Academics = () => {
 
         {/* Educational Resources Section */}
         <section>
-          <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex flex-col md:flex-row md:md:gap-8 gap-y-8 gap-y-8">
             <div className="p-6 bg-white  border border-gray-200  flex-1 relative">
               <h2 className="text-3xl font-semibold mb-4">Educational Resources</h2>
               <p className="text-gray-700">

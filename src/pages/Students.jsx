@@ -11,7 +11,7 @@ const Students = () => {
 
         {/* Extracurricular Activities and Clubs and Societies */}
         <section className="mb-12">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 md:gap-8 gap-y-8">
             {/* Extracurricular Activities */}
             <div className="p-6 bg-white  border border-gray-200  relative">
               <h2 className="text-2xl font-semibold mb-4">Extracurricular Activities</h2>
@@ -43,7 +43,7 @@ const Students = () => {
         {/* Achievements */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6 text-center">Achievements</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-y-8">
             <div className="p-6 bg-white  border border-gray-200  relative">
               <h3 className="text-xl font-semibold mb-4">John Smith</h3>
               <p className="text-gray-700">National Level Math Olympiad Winner</p>
@@ -62,7 +62,7 @@ const Students = () => {
         {/* Student Council */}
         <section>
           <h2 className="text-3xl font-semibold mb-6 text-center">Student Council</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-y-8">
             <div className="p-6 bg-white  border border-gray-200  relative">
               <h3 className="text-xl font-semibold mb-4">President: Amy Parker</h3>
               <p className="text-gray-700">Grade 12</p>
