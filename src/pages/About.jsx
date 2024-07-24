@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="text-black pt-24 md:pt-28 container mx-auto px-4 sm:px-8">
+        <div className="text-black pt-28 container mx-auto px-4 sm:px-8">
             <div className='relative'>
                 {/* Background Circles */}
                 <div className='absolute w-64 h-64 bg-blue-100 z-[-10] rounded-full right-0 top-1/2 transform -translate-y-1/2 blur-3xl sm:w-96 sm:h-96'></div>
