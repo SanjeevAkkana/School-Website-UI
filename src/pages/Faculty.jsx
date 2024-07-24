@@ -41,7 +41,7 @@ const Faculty = () => {
   ];
 
   return (
-    <div className="text-black  pt-28 pb-12 font-serif">
+    <div className="text-black  pt-28 pb-12 container">
       <div className="container mx-auto px-8">
         <h1 className="text-4xl font-bold mb-12 text-center pb-6 border-b-4">Our Faculty</h1>
 

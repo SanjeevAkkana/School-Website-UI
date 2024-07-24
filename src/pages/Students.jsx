@@ -2,7 +2,7 @@ import React from 'react';
 
 const Students = () => {
   return (
-    <div className="text-black pt-28 pb-12 font-serif">
+    <div className="text-black pt-28 pb-12 container">
       <div className="container mx-auto px-8 relative">
         <div className='absolute w-96 h-96 bg-blue-100 z-[-10] rounded-full right-0 top-96 blur-3xl'></div>
         <div className='absolute w-96 h-96 bg-blue-200 z-[-10] rounded-full left-0 top-1/4 blur-3xl'></div>
