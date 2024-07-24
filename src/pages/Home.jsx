@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <div className="min-h-screen text-gray-800 container">
       {/* Introduction Section */}
-      <section className="py-28 px-8 flex flex-col md:flex-row items-center justify-around  relative">
-         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+      <section className="pt-24 md:py-28 px-8 flex flex-col md:flex-row items-center justify-around  relative">
+         <div className="w-full md:w-1/2 flex justify-center mb-2 md:mb-0">
           <img
             src="https://img.freepik.com/free-vector/school-building-isolated-illustration-vector_24911-114862.jpg"
             alt="School Logo"
