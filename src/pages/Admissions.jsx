@@ -2,7 +2,7 @@ import React from 'react';
 
 const Admissions = () => {
   return (
-    <div className="text-black pt-16 container mx-auto px-4">
+    <div className="text-black pt-24 md:pt-28 container mx-auto px-4">
       <div className="relative">
         {/* Background Circles */}
         <div className="absolute w-64 h-64 bg-blue-100 z-[-10] rounded-full right-0 top-1/2 transform -translate-y-1/2 blur-3xl"></div>

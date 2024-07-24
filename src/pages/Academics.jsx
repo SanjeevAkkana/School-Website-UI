@@ -4,7 +4,6 @@ const Academics = () => {
   return (
     <div className="text-black pt-24 md:pt-28 pb-12 container">
       <div className="container mx-auto px-8">
-        <h1 className="text-4xl font-bold mb-12 text-center border-b-4 pb-6">Academics</h1>
 
         <div className="mb-12">
           {/* Curriculum Section */}
